@@ -1,9 +1,9 @@
 
 /**
- *   인터페이스 Shape - 여기에 인터페이스 설명을 작성하십시오.
+ *   인터페이스 Shape
  * 
- * @author (작성자 이름) 
- * @version (버전 번호나 날짜)
+ * @author (2018315017 임민택) 
+ * @version (2019.09.02)
  */
 
 interface Shape
