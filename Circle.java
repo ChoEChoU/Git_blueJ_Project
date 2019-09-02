@@ -5,17 +5,13 @@
  * @author (작성자 이름) 
  * @version (버전번호나 날짜)
  */
-abstract public class Circle implements Shape
+public class Circle implements Shape
 {
-    private int radius;
-
-    public Circle(int radius)
-    {
-        this.radius = radius;
-    }
-    
-    public double getArea()
-    {
-        return radius*radius*PI;
+    double Pi = 3.14;
+    void draw();
+    double getArea();
+    default public void redraw(){
+        System.out.print("---다시 그립니다. ");
+        draw();
     }
 }
