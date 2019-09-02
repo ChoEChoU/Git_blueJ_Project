@@ -5,29 +5,21 @@
  * @author (작성자 이름) 
  * @version (버전번호나 날짜)
  */
-public class Rect
+public class Rect implements Shape
 {
-    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
-    private int x;
-
-    /**
-     * Rect 클래스의 객체 생성자
-     */
-    public Rect()
-    {
-        // 인스턴스 변수의 초기화
-        x = 0;
+    private int length_1, length_2;
+    
+    public Rect(int length_1, int length_2){
+        this.length_1 = length_1;
+        this.length_2 = length_2;
     }
-
-    /**
-     * 예제 메소드 - 이 주석을 사용자에 맞게 바꾸십시오
-     * 
-     * @param  y   메소드의 예제 매개변수
-     * @return     x 더하기 y 
-     */
-    public int sampleMethod(int y)
+    
+    public double getArea()
     {
-        // 여기에 코드를 작성하십시오.
-        return x + y;
+        return length_1 * length_2;
+    }
+    
+    public void draw(){
+        System.out.print(this.length_1+"x"+this.length_2+"크기의 사각형입니다.");
     }
 }
