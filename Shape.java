@@ -6,13 +6,13 @@
  * @version (버전 번호나 날짜)
  */
 
-public interface Shape
+interface Shape
 {
-    /**
-     *  예제 메소드 해더 - 이 주석을 사용자에 맞게 바꾸십시오
-     * 
-     * @param  y    메소드의 예제 매개변수
-     * @return    예제메소드의 결과 산출물
-     */
-    int sampleMethod(int y);
+    final double PI = 3.14;
+    void draw();
+    double getArea();
+    default public void redraw(){
+        System.out.print("--- 다시 그립니다. ");
+        draw();
+    }
 }
