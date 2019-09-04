@@ -2,7 +2,7 @@
 /**
  * Rect 객체를 만드는 클래스
  * 
- * @author (2018315038 이혜인) 
+ * @author (2018315038이혜인) 
  * @version (2019.09.02)
  */
 public class Rect implements Shape
