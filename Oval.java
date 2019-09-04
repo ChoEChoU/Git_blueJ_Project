@@ -1,9 +1,9 @@
 
 /**
- * 여기에 Oval 클래스 설명을 작성하십시오.
+ * Oval 객체를 만드는 클래스
  * 
  * @author 2018315026 정대기 
- * @version Oval 클래스 작성
+ * @version 2019.09.02
  */
 public class Oval implements Shape
 {

@@ -1,8 +1,8 @@
 
 /**
- * 여기에 Main 클래스 설명을 작성하십시오.
+ * Main 클래스
  * 
- * @author (2018315017 임민택) 
+ * @author (2018315026 정대기) 
  * @version (2019.09.02)
  */
 public class Main

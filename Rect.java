@@ -1,9 +1,9 @@
 
 /**
- * 여기에 Rect 클래스 설명을 작성하십시오.
+ * Rect 객체를 만드는 클래스
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315038 이혜인) 
+ * @version (2019.09.02)
  */
 public class Rect implements Shape
 {
