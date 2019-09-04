@@ -2,7 +2,7 @@
 /**
  * Oval 객체를 만드는 클래스
  * 
- * @author 2018315026 정대기 
+ * @author 2018315026 정대기, 2018315017 임민택, 2018315038 이혜인
  * @version 2019.09.02
  */
 public class Oval implements Shape
