@@ -20,6 +20,6 @@ public class Oval implements Shape
     }
     
     public void draw(){
-        System.out.print(this.length_1+"x"+this.length_2+"에 내접하는 타원입니다");
+        System.out.println(this.length_1+"x"+this.length_2+"에 내접하는 타원입니다");
     }
 }

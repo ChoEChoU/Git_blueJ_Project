@@ -20,6 +20,6 @@ public class Rect implements Shape
     }
     
     public void draw(){
-        System.out.print(this.length_1+"x"+this.length_2+"크기의 사각형입니다.");
+        System.out.println(this.length_1+"x"+this.length_2+"크기의 사각형입니다.");
     }
 }
