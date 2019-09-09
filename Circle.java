@@ -10,9 +10,13 @@ import myInterface.Shape;
 public class Circle implements Shape
 {
     private int radius;
+    private int x;
+    private int y;
 
-    public Circle(int radius)
+    public Circle(int x, int y, int radius)
     {
+        this.x = x;
+        this.y = y;
         this.radius = radius;
     }
     
@@ -23,5 +27,13 @@ public class Circle implements Shape
     
     public void draw(){
         System.out.println("반지름이 " + this.radius + "인 원입니다.");
+    }
+    
+    public int get_x(){
+        return this.x;
+    }
+    
+    public int get_y(){
+        return this.y;
     }
 }
