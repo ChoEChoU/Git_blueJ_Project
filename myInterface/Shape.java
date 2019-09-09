@@ -6,7 +6,7 @@ package myInterface;
  * @version (2019.09.02)
  */
 
-interface Shape
+public interface Shape
 {
     final double PI = 3.14;
     void draw();

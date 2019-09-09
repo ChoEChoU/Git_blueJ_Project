@@ -1,3 +1,4 @@
+import myInterface.Shape;
 /**
  * Circle 객체를 만드는 클래스
  * 
