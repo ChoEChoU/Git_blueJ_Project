@@ -1,8 +1,8 @@
-
+ 
 /**
- *   ì¸í„°í˜ì´ìŠ¤ Shape
+ *   ?¸?„°?˜?´?Š¤ Shape
  * 
- * @author (2018315017 ì„ë¯¼íƒ, 2018315038 ì´í˜œì¸, 2018315026 ì •ëŒ€ê¸°) 
+ * @author (2018315017 ?„ë¯¼íƒ, 2018315038 ?´?˜œ?¸, 2018315026 ? •??ê¸?) 
  * @version (2019.09.02)
  */
 
@@ -12,7 +12,7 @@ interface Shape
     void draw();
     double getArea();
     default public void redraw(){
-        System.out.print("--- ë‹¤ì‹œ ê·¸ë¦½ë‹ˆë‹¤. ");
+        System.out.print("--- ?‹¤?‹œ ê·¸ë¦½?‹ˆ?‹¤. ");
         draw();
     }
 }
